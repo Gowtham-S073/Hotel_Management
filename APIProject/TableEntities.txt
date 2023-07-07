@@ -1,0 +1,42 @@
+Table: Motel
+
+Columns:
+motel_id (Primary Key): Unique identifier for each hotel.
+name: Name of the hotel.
+
+
+rating: Rating of the hotel.
+
+Location: Address of the hotel.
+Amenities: Gym, SPA, Steam and Sauna, Bar, cafe, Indoor Games 
+Room Options: Free WiFi,
+Full Breakfast, Free Cancellation
+
+
+Table: Rooms
+
+Columns:
+room_id (Primary Key): Unique identifier for each room.
+motel_id (Foreign Key): Reference to the hotel_id in the Hotels table.
+room_number: Room number or identifier.
+
+
+Room type: Type of room (e.g., single, double, suite).
+Property Type: Apartment, Villa, guest house, Hotel
+Available_Status: Get the room status 
+price: Price per night for the room.
+
+Table:Customer
+
+Columns:
+customer_id:
+customer_name:
+password
+
+Table:Admin
+
+Columns:
+Admin_id:
+Admin_name:
+Password:
+
